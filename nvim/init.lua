@@ -32,6 +32,7 @@ require("blink.cmp").setup({
 			},
 		},
 	},
+	fuzzy = { implementation = "lua" }, -- TODO: mb switch to rust fzf, check blink docs
 })
 
 -- remaps
