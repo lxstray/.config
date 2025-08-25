@@ -15,4 +15,5 @@ with pkgs; [
   lua-language-server
   ripgrep
   go
+  nerd-fonts.jetbrains-mono
 ]
