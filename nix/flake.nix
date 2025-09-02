@@ -5,6 +5,8 @@
 		zen-browser.url = "github:0xc000022070/zen-browser-flake";
 
 		neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
+		
+		vicinae.url = "github:vicinaehq/vicinae";
 
 		home-manager = {
 			url = "github:nix-community/home-manager";

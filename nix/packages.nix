@@ -11,9 +11,12 @@ with pkgs; [
   btop
   inputs.zen-browser.packages."x86_64-linux".twilight
   wofi
+  inputs.vicinae.packages."x86_64-linux".default
   yazi
   lua-language-server
   ripgrep
   go
   nerd-fonts.jetbrains-mono
+  fd
+  skim
 ]
