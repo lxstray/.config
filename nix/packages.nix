@@ -19,4 +19,5 @@ with pkgs; [
   nerd-fonts.jetbrains-mono
   fd
   skim
+  hyprpaper
 ]

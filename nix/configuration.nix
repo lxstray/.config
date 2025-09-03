@@ -25,6 +25,14 @@
     dates = "weekly";
     options = "--delete-older-than 30d";
   };
+
+  #font
+  fonts = {
+    fontDir.enable = true;
+    packages = with pkgs; [
+      nerd-fonts.jetbrains-mono
+    ];
+  };
   
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
