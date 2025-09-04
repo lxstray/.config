@@ -20,4 +20,6 @@ with pkgs; [
   fd
   skim
   hyprpaper
+  quickshell
+  nodejs
 ]

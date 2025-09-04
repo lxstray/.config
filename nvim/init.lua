@@ -43,6 +43,8 @@ map({ 'n', 'v' }, '<leader>y', '"+y')
 map({ 'n', 'v' }, '<leader>d', '"+d')
 map('n', '<leader>f', ":Pick files<CR>")
 map('n', '<leader>e', ":Oil<CR>")
+map('n', '<C-d>', '<C-d>zz')
+map('n', '<C-u>', '<C-u>zz')
 
 -- colors
 require "vague".setup({ transparent = true })
